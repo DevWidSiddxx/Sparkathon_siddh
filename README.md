@@ -2,7 +2,8 @@
 **Team Mutables | Walmart Sparkathon 2025 | Transforming retail supply chains**
 
 ## Overview  
-** TOPIC :- Transforming Retail Supply Chains**
+TOPIC :- Transforming Retail Supply Chains
+
 SuperMart is a smart warehouse-to-rack inventory management system that digitally manages how items are restocked in a retail environment. Designed as a scalable and future-ready solution, it enables employees to transfer items from the warehouse to store racks using a simple and intuitive interface — logging item, quantity, location, and employee ID in real-time.
 
 This solution lays the **foundation for our key innovation** — **QR-integrated shelf monitoring**. In the upcoming phase, racks will be embedded with QR codes that, when scanned, dynamically display the live stock status. This eliminates manual shelf-checking, minimizes out-of-stock incidents, and empowers associates to make faster, smarter replenishment decisions.
