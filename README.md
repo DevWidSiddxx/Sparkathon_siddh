@@ -25,9 +25,9 @@ This solution lays the **foundation for our key innovation** — **QR-integrated
 ## Vision: QR-Based Shelf Intelligence  
 At the core of this project is a **vision to make every retail rack intelligent**. Through **QR integration**, store associates and managers will be able to:
 
-- Instantly check stock levels by scanning shelf QR codes using mobile or handheld devices.
+- Instantly check stock levels by scanning shelf Product QR codes using handheld devices.
 - Get real-time alerts for low-stock or out-of-stock items.
-- Automate inventory audits with a single scan.
+- Automate inventory audits with a single scan along with Gen-AI suggestions.
 
 This not only **reduces operational friction** but also **enhances customer satisfaction** by ensuring consistent product availability.
 
