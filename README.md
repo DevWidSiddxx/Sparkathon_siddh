@@ -34,7 +34,7 @@ This not only **reduces operational friction** but also **enhances customer sati
 
 - **Frontend**: HTML, CSS (Custom Grid), JavaScript
 - **Storage**: Browser LocalStorage (to simulate rack and activity data)
-- **Backend (Planned)**: REST API (Node.js + Express), MongoDB, Authentication, QR Code Service Integration
+- **Backend**: REST API (Node.js + Express), MongoDB, Authentication, QR Code Service Integration
 - **Generative AI(Planned)**: RAG(Retrieval Augmented Generation), MCP (Model context protocol)  enable intelligent assistant responses.  
   This will allow store staff to query stock trends, restock recommendations, and get contextual answers from inventory history.
 
