@@ -8,7 +8,7 @@ SuperMart is a smart warehouse-to-rack inventory management system that digitall
 
 This solution lays the **foundation for our key innovation** — **QR-integrated shelf monitoring**. In the upcoming phase, racks will be embedded with QR codes that, when scanned, dynamically display the live stock status. This eliminates manual shelf-checking, minimizes out-of-stock incidents, and empowers associates to make faster, smarter replenishment decisions.
 
-https://sparkathon-siddh.vercel.app/
+https://supermart-wal.vercel.app/
 
 ## Key Features
 
