@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMart - Warehouse to Rack System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏪 Warehouse to Rack System</h1>
+            <p>Transfer items from warehouse inventory to store racks</p>
+        </div>
+
+        <div class="main-panel">
+            <div class="restock-form">
+                <h2 class="form-title">
+                    <span class="warehouse-icon">📦</span>
+                    Restock Items to Rack
+                    <span class="warehouse-icon">🛒</span>
+                </h2>
+
+                <div class="success-message" id="successMessage">
+                    <strong>✅ Success!</strong> <span id="successText"></span>
+                </div>
+
+                <form id="restockForm">
+                    <div class="form-group">
+                        <label for="itemName">Select Item from Warehouse</label>
+                        <select id="itemName" required>
+                            <option value="">Choose product to restock...</option>
+                            <option value="Apples">🍎 Apples</option>
+                            <option value="Bananas">🍌 Bananas</option>
+                            <option value="Oranges">🍊 Oranges</option>
+                            <option value="Grapes">🍇 Grapes</option>
+                            <option value="Strawberries">🍓 Strawberries</option>
+                            <option value="Milk">🧏 Milk (1L)</option>
+                            <option value="Bread">🍞 Bread Loaf</option>
+                            <option value="Eggs">🥚 Eggs (12 pack)</option>
+                            <option value="Rice">🍚 Rice (5kg)</option>
+                            <option value="Chicken">🍗 Chicken Breast</option>
+                            <option value="Tomatoes">🍅 Tomatoes</option>
+                            <option value="Potatoes">🥔 Potatoes</option>
+                            <option value="Onions">🧅 Onions</option>
+                            <option value="Cheese">🧀 Cheese Block</option>
+                            <option value="Yogurt">🧏 Yogurt Cups</option>
+                            <option value="Pasta">🍝 Pasta</option>
+                            <option value="Cereal">🥣 Cereal Box</option>
+                            <option value="Soap">🧼 Hand Soap</option>
+                            <option value="Shampoo">🧴 Shampoo</option>
+                            <option value="Detergent">🧽 Laundry Detergent</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="rackLocation">Target Rack Location</label>
+                        <select id="rackLocation" required>
+                            <option value="">Select destination rack...</option>
+                            <option value="A1">Rack A1 - Fresh Produce (Fruits & Vegetables)</option>
+                            <option value="A2">Rack A2 - Organic Produce</option>
+                            <option value="B1">Rack B1 - Dairy & Refrigerated</option>
+                            <option value="B2">Rack B2 - Frozen Foods</option>
+                            <option value="C1">Rack C1 - Meat & Poultry</option>
+                            <option value="C2">Rack C2 - Seafood</option>
+                            <option value="D1">Rack D1 - Bakery & Bread</option>
+                            <option value="D2">Rack D2 - Desserts & Cakes</option>
+                            <option value="E1">Rack E1 - Beverages</option>
+                            <option value="E2">Rack E2 - Snacks & Chips</option>
+                            <option value="F1">Rack F1 - Pantry & Grains</option>
+                            <option value="F2">Rack F2 - Canned Goods</option>
+                            <option value="G1">Rack G1 - Personal Care</option>
+                            <option value="G2">Rack G2 - Household Items</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="quantity">Quantity to Transfer</label>
+                            <input type="number" id="quantity" min="1" required placeholder="Enter quantity">
+                        </div>
+                        <div class="form-group">
+                            <label for="employeeId">Employee ID</label>
+                            <input type="text" id="employeeId" required placeholder="Your employee ID">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-restock">
+                         Transfer to Rack
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="rack-status" id="rackStatus"></div>
+
+        <div class="recent-activity">
+            <h3 class="activity-header">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                Recent Restocking Activity
+            </h3>
+            <div class="activity-list" id="activityList">
+                <div class="activity-item">
+                    <div class="activity-info">
+                        <div class="activity-title">Welcome to the Warehouse System!</div>
+                        <div class="activity-details">Start by selecting items to transfer from warehouse to racks</div>
+                    </div>
+                    <div class="activity-time">Just now</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
